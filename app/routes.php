@@ -33,3 +33,6 @@ Route::get('clientes','ClientesController@get_index');
 Route::get('clientes/crearCliente','ClientesController@get_formulario');
 Route::post('clientes/crearCliente','ClientesController@post_formulario');
 Route::post('clientes/crearCliente','ClientesController@post_formulario');
+
+//
+Route::get('maps/maps','MapController@index');
